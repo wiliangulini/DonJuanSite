@@ -253,6 +253,29 @@ p {
 	height: auto;
 }
 
+.delivery {
+	width: 100%
+	color: #fbb45a;
+	height: auto;
+	background-color:black;
+}
+
+.deliveryint {
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	height: auto;
+}
+.p {
+	margin: 0px;
+	margin-bottom: 0px;
+}
+
+.information p {
+	font-size: 30px;
+}
+
+
 footer {
 	width: 100%;
 	background-color: black;
