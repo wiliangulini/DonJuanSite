@@ -1,64 +1,12 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Documento sem título</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css" >
-	<script type="text/javascript" src="js/script.js"></script>
-</head>
-
-<body>
-	
-	<div class="topo">
-		<div class="topoint">
-			<nav>
-				<ul>
-					<li>HOME</li>
-					<li>CARDÁPIO</li>
-					<li>DELIVERY</li>
-					<li>CONTATO/FALE CONOSCO</li>
-					<li>LOGIN/CADASTRE-SE</li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-	<header>
-		<div class="container">
-			<div class="containerint">
-				<div class="slideshow" id="slideshow">
-					<div class="slideshowarea">
-						<div class="slide">
-							<img src="images/genioburger.jpg"/>			
-						</div>
-						<div class="slide">
-							<img src="images/pazamorburger.jpg"/>			
-						</div>
-						<div class="slide">
-							<img src="images/batata.jpg"/>			
-						</div>
-						<div class="slide">
-							<img src="images/propaganda.png"/>			
-						</div>
-						<div class="slide">
-							<img src="images/amorburger.jpg"/>			
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+<?php require "includes/menu.php" ?>
 	<section>
-		<div class="favoritos">
-			<div class="favoritosint">
-				<div class="fidelidade">
-					<p>Venha ser um cliente fidelidade no DON JUAN, após 10 compras acima de R$20,00 ganha um hamburguer da sua escolha 100% GRÁTIS.</p>
-					<div class="f1">PARTICIPAR</div>
+		<div class="cardapio">
+			<div class="cardapioint">
+				<div class="paes">
+					<img src="images/paes.jpg" />
 				</div>
-			</div>	
-		</div>
-		<div class="extras">
-			<div class="extrasint">
-				<div class="e1">
+				<div class="c2">
+					<div class="e1">
 					<img src="images/desconhecido.png"  />
 					<div class="texto">
 						<h1>Cordeiro com Molho de Pimentões Vermelhos Caramelizados</h1>
@@ -105,18 +53,9 @@
 						<div class="peca">PEÇA O SEU</div>
 					</div>
 					<img src="images/desconhecido.png"  />
+				</div>
 				</div>
 			</div>
 		</div>
-	</section>	
-	<footer>
-		<div class="rodape">
-			Don Juan Broiled Burger. <br>
-			End: Av. União da Vitoria, 1178<br>
-			B: Vila Nova - Francisco Beltrão.<br>
-			Tel: (46) 9940-3334.
-			
-		</div>
-	</footer>
-</body>
-</html>
+	</section>
+<?php require "includes/footer.php" ?>
