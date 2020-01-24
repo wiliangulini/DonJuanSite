@@ -14,8 +14,7 @@
 			<nav>
 				<ul>
 					<a onClick="window.location.href = 'http://localhost/projetos/don juan/index.php';"><li>HOME</li></a>
-					<a href="cardapio.php"><li>CARDÁPIO</li></a>
-					<a href="delivery.php"><li>DELIVERY</li></a>
+					<a href="cardapio.php"><li>CARDÁPIO/DELIVERY</li></a>
 					<a href="#footer"><li>CONTATO/FALE CONOSCO</li></a>
 					<a href="login.php"><li>LOGIN/CADASTRA-SE</li></a>
 				</ul>
