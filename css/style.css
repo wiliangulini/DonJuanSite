@@ -159,7 +159,9 @@ p {
 	line-height: 30px;
 	padding: 0px 10px;
 }
-
+.valor {
+	border: 2px solid #fbb45a;
+}
 .peca {
 	display: flex;
 	justify-content: center;
@@ -247,12 +249,28 @@ p {
 	height: auto;
 }
 
-.paes {
+.paesint {
 	background-color: black;
+	display: flex;
+	justify-content: center;
+	color: #fbb45a;
 }
-.paes img {
-	width: 100%;
-	height: auto;
+.paesint img {
+	width: 200px;
+	height: 100px;
+	
+}
+.crocante, .leite {
+	margin: 0px 15px 10px 15px;
+}
+.mais {
+	display: flex;
+	justify-content: center;
+}
+.mais img {
+	width: 100px;
+	height: 100px;
+	border: 2px solid #fbb45a;
 }
 
 .delivery {

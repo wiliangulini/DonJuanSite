@@ -40,7 +40,7 @@
 					<div class="texto">
 						<h1>DON CABRON</h1>
 						<p>Pão, hambúrguer de fraldinha (200g), queijo mozarela, cebola crispy, ovo frito, bacon em fatias e guacamole.</p>
-						<p>R$23,50</p>
+						<p class="valor">R$23,50</p>
 						<div class="peca">PEÇA O SEU</div>
 					</div>
 				</div>
@@ -48,7 +48,7 @@
 					<div class="texto">
 						<h1>TROPERONI</h1>
 						<p>Pão, blend bovino com pepperoni (200g), queijo mozarela, abacaxi grelhado em rodelas, bacon em fatias e maionese. Porção de fritas (170g)</p>
-						<p>R$24,50</p>
+						<p class="valor">R$24,50</p>
 						<div class="peca">PEÇA O SEU</div>
 					</div>
 					<img src="images/desconhecido.png"  />
@@ -58,7 +58,7 @@
 					<div class="texto">
 						<h1>VEGETARIANO</h1>
 						<p>Pão, hamburguer vegetariano (quinoa ou lentilha) (200g), queijo moazrela, alface, tomate, picles e maionese.</p>
-						<p>R$15,00</p>
+						<p class="valor">R$15,00</p>
 						<div class="peca">PEÇA O SEU</div>
 					</div>
 				</div>
