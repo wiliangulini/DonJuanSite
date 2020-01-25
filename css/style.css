@@ -130,10 +130,10 @@ p {
 	max-width: 1080px;
 	margin: auto;
 	height: 333px;
-	background-color: #DDD;
 	display: flex;
 	background-color: black;
 	color: #fbb45a;
+	border-bottom: 3px solid #fbb45a;
 }
 .e1 img {
 	width: 502px;
@@ -162,6 +162,10 @@ p {
 .valor {
 	border: 2px solid #fbb45a;
 }
+/*.valorcheese {
+	display: flex;
+	flex-direction: column;
+}*/
 .peca {
 	display: flex;
 	justify-content: center;
@@ -192,10 +196,10 @@ p {
 	max-width: 1080px;
 	margin: auto;
 	height: 333px;
-	background-color: #DDD;
 	display: flex;
 	background-color: black;
 	color: #fbb45a;
+	border-bottom: 3px solid #fbb45a;
 }
 .e2 img {
 	width: 502px;
@@ -248,6 +252,9 @@ p {
 	margin: auto;
 	height: auto;
 }
+.paes {
+	border-bottom:  3px solid #fbb45a;
+}
 
 .paesint {
 	background-color: black;
@@ -258,19 +265,52 @@ p {
 .paesint img {
 	width: 200px;
 	height: 100px;
-	
+	margin-bottom: 10px;
 }
 .crocante, .leite {
 	margin: 0px 15px 10px 15px;
 }
+.crocante h1 {
+	text-align: center;
+
+}
 .mais {
 	display: flex;
 	justify-content: center;
+	padding:10px 10px 8px 10px;
 }
 .mais img {
 	width: 100px;
 	height: 100px;
 	border: 2px solid #fbb45a;
+	cursor: pointer;
+}
+.cheese {
+	margin-top: 20px;
+}
+.cordeiro {
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+}
+.cordeiro h1 {
+	padding: 0px;
+	margin: 9px 0px 0px 0px;
+}
+.valorcordeiro, .valordetona {
+	margin: 0px 0px 20px 0px;
+	border: 2px solid #fbb45a;
+}
+.detonation2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#don {
+	margin-bottom: 20px;
+}
+#fraldinha, #trimentao {
+	margin: 15px 0px 0px 0px;
 }
 
 .delivery {
@@ -302,6 +342,7 @@ footer {
 .rodape {
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 	padding: 20px;
 	margin: auto;
 	width: 50%;
@@ -319,6 +360,16 @@ footer {
 	width: 50%;
 	padding-top: 10px;
 	font-size: 25px;
+}
+.tel {
+	display: flex;
+	align-items: center;
+	width: 96%;
+}
+.tel img {
+	margin-left: 30px;
+	width: 50px;
+	height: 50px;
 }
 .rodape1 img {
 	width: 50px;

@@ -33,7 +33,39 @@
 							</div>
 						</div>	
 					</div>
-				</div>	
+				</div>
+				<div class="paes">
+					<div class="paesint">
+						<div class="crocante">
+							<h1>Pão Crocante</h1>
+							<img src="images/paocrocante.png" />
+							<div class="mais">
+								<img src="images/mais.png" />
+							</div>	
+						</div>
+						<div class="leite">
+							<h1>Pão de Leite</h1>	
+							<img src="images/paodeleite.png" />
+							<div class="mais">
+								<img src="images/mais.png" />
+							</div>
+						</div>
+						<div class="crocante">
+							<h1>Pão Brioche</h1>
+							<img src="images/paocrocante.png" />
+							<div class="mais">
+								<img src="images/mais.png" />
+							</div>
+						</div>
+						<div class="leite">
+							<h1>Pão Australiano</h1>	
+							<img src="images/paodeleite.png" />
+							<div class="mais">
+								<img src="images/mais.png" />
+							</div>
+						</div>	
+					</div>
+				</div>		
 				<div class="c2">
 					<div class="e1">
 						<img src="images/desconhecido.png"  />
@@ -46,10 +78,12 @@
 				</div>	
 					<div class="e2">
 						<div class="texto">
-							<h1>CHESSE BURGER</h1>
+							<div class="cheese"><h1>CHESSE BURGER</h1></div>
 							<p>Pão, burger bovino (200g), duas fatias de queijo mozarela, alface americana e maionese caseira.</p>
-							<p class="valor">R$15,00</p>
-							<div class="peca">PEÇA O SEU</div>
+							
+								<p class="valor">R$15,00</p>
+								<div class="peca">PEÇA O SEU</div>
+								
 						</div>
 						<img src="images/desconhecido.png"  />
 					</div>
@@ -64,9 +98,11 @@
 					</div>
 					<div class="e2">
 						<div class="texto">
-							<h1>CORDEIRO BURGER COM FRITAS</h1>
-							<p>Pão, burger (200g) blend de carne de cordeiro com carne bovina, queijo cheddar, tomate, alface e 1 molho a escolha entre: BBQ, maionese caseira, maionese caseira verde, cebola caramelizada. Porção de fritas (170g)</p>
-							<p class="valor">R$27,00</p>
+							<div class="cordeiro">
+								<h1>CORDEIRO BURGER COM FRITAS</h1>
+								<p>Pão, burger (200g) blend de carne de cordeiro com carne bovina, queijo cheddar, tomate, alface e 1 molho a escolha entre: BBQ, maionese caseira, maionese caseira verde, cebola caramelizada. Porção de fritas (170g)</p>
+							</div>	
+								<p class="valorcordeiro">R$27,00</p>
 							<div class="peca">PEÇA O SEU</div>
 						</div>
 						<img src="images/desconhecido.png"  />
@@ -94,9 +130,11 @@
 					<div class="e1">
 						<img src="images/desconhecido.png"  />
 							<div class="texto">
-								<h1>DETONATION 2.0 BURGER COM FRITAS</h1>
-								<p>Pão, burger bovino (200g) com recheio de queijo cheddar, duplo bacon em fatias, queijo cheddar, tomate, onions rings, maionese caseira e BBQ. Porção de fritas (170g)</p>
-								<p class="valor">R$27,00</p>
+								<div class="detonation2">
+									<h1>DETONATION 2.0 BURGER COM FRITAS</h1>
+									<p>Pão, burger bovino (200g) com recheio de queijo cheddar, duplo bacon em fatias, queijo cheddar, tomate, onions rings, maionese caseira e BBQ. Porção de fritas (170g)</p>
+								</div>	
+								<p class="valordetona">R$27,00</p>
 							<div class="peca">PEÇA O SEU</div>
 					</div>
 				</div>
@@ -104,7 +142,7 @@
 					<div class="texto">
 						<h1>DON CABRON</h1>
 						<p>Pão, hambúrguer de fraldinha (200g), queijo mozarela, cebola crispy, ovo frito, bacon em fatias e guacamole.</p>
-						<p class="valor">R$23,50</p>
+						<p class="valor" id="don">R$23,50</p>
 						<div class="peca">PEÇA O SEU</div>
 					</div>
 					<img src="images/desconhecido.png"  />
@@ -112,7 +150,7 @@
 					<div class="e1">
 						<img src="images/desconhecido.png"  />
 							<div class="texto">
-								<h1>FRALDINHA BURGER COM FRITAS</h1>
+								<h1 id="fraldinha">FRALDINHA BURGER COM FRITAS</h1>
 								<p>Pão, burger (200g) blend de fraldinha com bacon, queijo cheddar, bacon em fatias, alface e 1 molho a escolhe entre: BBQ, maionese caseira, maionese verde caseira, cebola caramelizada. Porção de fritas (170g). </p>
 								<p class="valor">R$25,00</p>
 								<div class="peca">PEÇA O SEU</div>
@@ -148,7 +186,7 @@
 					<div class="e1">
 						<img src="images/desconhecido.png"  />
 							<div class="texto">
-								<h1>TRIMENTÃO BURGER COM FRITAS</h1>
+								<h1 id="trimentao">TRIMENTÃO BURGER COM FRITAS</h1>
 								<p>Pão, burger bovino (200g) temperado com molho chimichurri, queijo mozarela, bacon em fatias, pimentões grelhados (verde, amarelo e vermelho) e molho BBQ. Porção de fritas (170g)</p>
 								<p class="valor">R$25,00</p>
 								<div class="peca">PEÇA O SEU</div>
