@@ -16,7 +16,7 @@
 					<a onClick="window.location.href = 'http://localhost/projetos/don juan/index.php';"><li>HOME</li></a>
 					<a href="cardapio.php"><li>CARDÁPIO/DELIVERY</li></a>
 					<a href="#footer"><li>CONTATO/FALE CONOSCO</li></a>
-					<a href="login.php"><li>LOGIN/CADASTRA-SE</li></a>
+					<a href="login.php"><li>LOGIN/CADASTRE-SE</li></a>
 				</ul>
 			</nav>
 		</div>

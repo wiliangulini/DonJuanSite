@@ -333,6 +333,108 @@ p {
 	font-size: 30px;
 }
 
+.loginmaster {
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	background-color: black;
+	border-bottom: 3px solid #fbb45a;
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fbb45a;
+	width: 100%;
+	border-bottom: 2px solid #fbb45a;
+}
+
+input[type=email], #senha {
+	height: 43px;
+	width: 400px;
+}
+
+input[type=submit] {
+	color: #fbb45a;
+	background-color: black;
+	width: 100px;
+	height: 43px;
+	border-radius: 5px;
+}
+#enviar {
+	margin-left: 170px;
+}
+
+.login h1 {
+	margin-right: 90px;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+form .mostrar {
+	float: right;
+	height: 43px;
+	width: 90px;
+	border: 2px solid #fbb45a;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.esqueci {
+	margin-right: 70px;
+	margin-bottom: 20px;
+}
+
+.register {
+	width: 100%;
+}
+
+.registerint {
+	width: 100%;
+	max-width: 1080px;
+	background-color: black;
+	margin: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 5px solid #fbb45a;
+}
+
+.registerint form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.registerint h1 {
+	color: #fbb45a;
+}
+form input {
+	margin-bottom: 10px;
+	height: 43px;
+}
+
+input[name="nome"], input[name="rua"], #email {
+	width: 600px;
+}
+
+input[name="numero"] {
+	width: 100px;
+}
+
+input[name="cepdarua"] {
+	width: 250px;
+}
+
+input[name="senha"] {
+	width: 350px;
+}
 
 footer {
 	width: 100%;

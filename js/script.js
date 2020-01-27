@@ -21,3 +21,11 @@ function passarSlide() {
 
 	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
 }
+function mostrarSenha() {
+	var tipo = document.getElementById("senha");
+	if(tipo.type=="password") {
+		tipo.type = "text";
+	}else {
+		tipo.type = "password";
+	}
+}
