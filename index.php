@@ -1,4 +1,19 @@
-<?php require 'includes/menu.php' ?>
+
+<?php 
+session_start();
+
+if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
+	echo "Área restrita...";
+	
+
+} else {
+	echo "naologado";
+}
+
+
+require 'includes/menu.php';
+
+?>
 	<header>
 		<div class="container">
 			<div class="containerint">
@@ -66,4 +81,3 @@
 		</div>
 	</section>	
 <?php require "includes/footer.php" ?>
-
